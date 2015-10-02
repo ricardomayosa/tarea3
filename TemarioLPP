@@ -1,0 +1,38 @@
+Variable estática: variable cuyo tiempo de vida se extiende durante toda la ejecución del programa.
+
+Tiempo de vida de una variable: intervalo de tiempo que trascurre desde que se crea la variable hasta que se destruye. 
+
+Memoria dinámica: permite solicitar memoria en tiempo de ejecución, por lo que cuanta más memoria se necesite, más se solicita al sistema operativo.
+
+Clase: definición de las propiedades y comportamiento de un tipo de objeto concreto.
+
+Objeto: instancia de una clase. Entidad provista de un conjunto de propiedades o atributos (datos) y de comportamiento o funcionalidad (métodos), los mismos que consecuentemente reaccionan a eventos. 
+
+Instanciación: lectura de las definiciones de la clase y la creación de un objeto a partir de ella.
+
+Herencia: capacidad para transmitir atributos y operaciones de una clase a otra.
+
+Sobrecarga: posibilidad de tener dos o más funciones con el mismo nombre pero funcionalidad diferente. Es decir, dos o más funciones con el mismo nombre realizan acciones diferentes. El compilador usará una u otra dependiendo de los parámetros usados. A esto se llama también sobrecarga de funciones.
+
+Shadowing: hecho de que una variable miembro y una variable local definida en un método miembro pertenecientes a una clase, se llamen igual.
+
+•	Variables de instancia (u objeto):
+– Se crean cuando se crea el objeto que las contiene. 
+– Se inicializan por defecto si no se hace de modo explícito: 0 para números, "false" para booleano, "null" para objetos. 
+– Se destruyen cuando el recolector de basura de Java no encuentra referencias activas para el objeto. 
+
+•	Variables estáticas (o de clase): 
+– Se crean cuando la clase se usa por primera vez. 
+– Se inicializan por defecto si no se hace de modo explícito: 0 para números, "false" para booleano, "null" para objetos 
+– Suelen existir para el resto del programa (salvo que no esté cargado). 
+
+•	Variables locales (o de bloque): 
+– Creadas en la sentencia en la que están definidas. 
+– No se inicializan por defecto. Contienen datos imprevisibles. 
+– Se destruyen al salir del bloque (en la llave final).
+
+Bibliografía:
+https://es.wikipedia.org/wiki/Sobrecarga_(inform%C3%A1tica)
+https://misapuntesdeprogramacion.wordpress.com/2013/01/17/que-es-shadowing/
+http://mit.ocw.universia.net/1.00/s02/class-sessions/lecture-11/lecture-11.pdf
+https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos
